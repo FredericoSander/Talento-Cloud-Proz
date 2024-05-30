@@ -12,4 +12,3 @@ Este repositório é destinado aos projetos do curso Talento Cloud AWS
 ## Autor
 
 - [Frederico Sander](https://github.com/FredericoSander)
-gi

@@ -72,3 +72,6 @@ Concluído os teste de comunicação entre os computadores e o roteador, foi efe
  <img src="https://github.com/Sanderfn/Talento-Cloud-Proz/blob/main/Redes%20e%20Linux/Desenvolvimento%201/Imagens/Create%20Complex%20PDU.png">
 </div>
 
+## Autor
+
+- [Frederico Sander](https://github.com/FredericoSander)

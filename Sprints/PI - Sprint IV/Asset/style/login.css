@@ -1,0 +1,227 @@
+
+/* Estilo de página */
+* body {
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .figure img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(17, 153, 231);;;
+    }
+    
+    nav a:hover {
+        color: rgb(17, 153, 231);
+        transition: 0.3s all;
+    }
+    
+    #inscreva-se-btn {
+        background-color: rgb(17, 153, 231);
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1.5px solid rgb(5, 5, 5);
+        color: rgb(246, 247, 248);
+        padding: 10px;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    
+    #inscreva-se-btn:hover {
+        background-color: rgb(17, 153, 231);;
+        color: white;
+    }
+
+/* Estilização do login */
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 0.1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: rgb(17, 153, 231);
+}
+
+.login-password {
+    display: flex;
+    width: 120%;
+    flex-direction: column;
+}
+
+.login-pass {
+    border: 2px solid rgb(17, 153, 231);
+    width: 100%;
+}
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #DFDFDF;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+
+label {
+    margin-bottom: 0.5rem;
+    color: rgb(17, 153, 231);
+}
+
+input {
+    border: 2px solid rgb(17, 153, 231);
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+.input-box {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: right; 
+    justify-items: right;
+    width: 110%;
+}
+
+input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+
+input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+  
+
+
+
+
+
+
+.open {
+    width: 110%;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#open-btn{
+    background-color: rgb(17, 153, 231);
+    border: 0.5px solid black;
+    color: rgb(240, 245, 248);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;   
+}
+
+#open-btn:hover{
+    background-color: rgb(17, 153, 231);
+        color: white;
+    }
+
+/*Article*/
+article img {
+        max-width: 100%;
+        height: auto;
+        align-self: flex-end;
+    }
+
+/*estilo contatos*/
+.subtitulo {
+    display: flex;
+    margin: 5px;
+    color: black;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+} 
+
+/*redes sociais*/
+.socialnetworks {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin: auto;
+    padding: auto; 
+}
+
+.contactclasse {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactinfo {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*direitos*/
+footer {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+

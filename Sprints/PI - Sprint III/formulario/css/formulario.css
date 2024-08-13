@@ -1,0 +1,200 @@
+/* Estilos página */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primary-color: #333;
+    --secondary-color: #555;
+    --background-color: #f0f0f0;
+    --accent-color: #2196F3;
+}
+
+body {
+    background: black;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(17, 153, 231);;;
+}
+
+nav a:hover {
+    color: rgb(17, 153, 231);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid rgb(17, 153, 231);;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(17, 153, 231);;
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+}
+
+legend {
+    padding: 0 0.5rem;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+input[type="file"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.checkbox-group,
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.checkbox-group input,
+.radio-group input {
+    margin-right: 0.5rem;
+}
+
+.checkbox-group label,
+.radio-group label {
+    margin: 0;
+}
+
+.date-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-group select {
+    width: 48%;
+}
+
+.form-group button {
+    width: calc(33.33% - 10px); /* Ajuste para três botões lado a lado */
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="submit"] {
+    background-color: rgb(17, 153, 231);
+    padding: 10px;
+    color: #fff;
+}
+
+button[type="reset"] {
+    background-color: rgb(17, 153, 231);
+    padding: 10px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+button[type="button"] {
+    background-color: rgb(17, 153, 231);
+    padding: 10px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.required {
+    color: rgb(17, 153, 231);
+}
+
+@media (max-width: 600px) {
+    .date-group select {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group button {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}

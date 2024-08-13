@@ -1,0 +1,232 @@
+/* Estilo de página */
+* body {
+    background: white;
+    color:black;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    }
+
+:root {
+    --primary-color: black;
+    --secondary-color: black;
+    --background-color: black;
+    --accent-color: #2196F3;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(17, 153, 231);;;
+}
+
+nav a:hover {
+    color: rgb(17, 153, 231);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    background-color: rgb(17, 153, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgb(246, 247, 248);
+    color: rgb(246, 247, 248);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(17, 153, 231);;
+    color: white;
+}
+
+/* Estilo cadastro */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.input-box {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.input-box {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.input-box input {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.gender-group {
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group button {
+    width: calc(33.33% - 10px); /* Ajuste para três botões lado a lado */
+    padding: 0.75rem;
+    border: 2px solid rgb(246, 247, 248);
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button[type="save"] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 153, 231);
+    padding: 10px;
+    color: #fff;
+}
+
+button[type="change"] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 153, 231);
+    padding: 10px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+button[type="following"] {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(17, 153, 231);
+    padding: 10px;
+    color: #fff;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.required {
+    color: rgb(17, 153, 231);
+}
+
+@media (max-width: 600px) {
+    .date-group select {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group button {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+}
+
+/*estilo contatos*/
+.subtitulo {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: auto; 
+} 
+
+/*redes sociais*/
+.socialnetworks {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+.contactclasse {
+    color: black;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactinfo {
+    color: black;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*direitos*/
+footer {
+    color: black;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+

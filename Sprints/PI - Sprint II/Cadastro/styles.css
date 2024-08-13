@@ -1,0 +1,157 @@
+/* Estilos gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* Estilos do formulário */
+form {
+    display: grid;
+    gap: 20px;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    color: #2c3e50;
+    padding: 0 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="number"],
+input[type="url"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input[type="file"] {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.checkbox-group,
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input,
+.radio-group input {
+    margin-right: 10px;
+}
+
+button[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos específicos */
+.required {
+    color: #e74c3c;
+}
+
+input[type="tel"] {
+    font-family: monospace;
+}
+
+input[type="password"] {
+    letter-spacing: 0.1em;
+}
+
+input[readonly] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+}
+
+/* Estilos de foco */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    fieldset {
+        padding: 10px;
+    }
+
+    button[type="submit"] {
+        width: 100%;
+    }
+}
+
+
+

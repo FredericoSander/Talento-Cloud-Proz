@@ -1,0 +1,180 @@
+/* Estilo de página */
+* body {
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    }
+
+:root {
+    --primary-color: white;
+    --secondary-color: white;
+    --background-color: #f0f0f0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.figure img {
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(17, 153, 231);;;
+}
+
+nav a:hover {
+    color: rgb(17, 153, 231);
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    background-color: rgb(17, 153, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1.5px solid rgb(5, 5, 5);
+    color: rgb(246, 247, 248);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#inscreva-se-btn:hover {
+    background-color: rgb(17, 153, 231);;
+    color: white;
+}
+
+
+/* Estilização do login*/
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 10%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+}
+
+input[type="password"] {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 0.75rem;
+    border: 1px solid  rgb(17, 153, 231);
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+/* Estilização do botão de entrar*/
+button {
+    background-color: rgb(17, 153, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 5px;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0.5px solid black;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #1976D2;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+    }
+}
+
+article img {
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+}
+
+/*estilo contatos*/
+.subtitulo {
+    display: flex;
+    margin: 5px;
+    color: black;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+} 
+
+/*redes sociais*/
+.socialnetworks {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin: auto;
+    padding: auto; 
+}
+
+.contactclasse {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactinfo {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*direitos*/
+footer {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+

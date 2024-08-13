@@ -1,0 +1,139 @@
+
+/* Estilo de página */
+*  body {
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .figure img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(17, 153, 231);;;
+    }
+    
+    nav a:hover {
+        color: rgb(17, 153, 231);
+        transition: 0.3s all;
+    }
+    
+    #inscreva-se-btn {
+        background-color: rgb(17, 153, 231);
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid rgb(5, 5, 5);
+        color: rgb(246, 247, 248);
+        padding: 10px;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    
+    #inscreva-se-btn:hover {
+        background-color: rgb(17, 153, 231);;
+        color: white;
+    }
+
+    aside {
+        margin: 100px;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 30px;
+        color: rgb(17, 153, 231);
+        line-height: 10px;
+        font-weight: 200;
+    }
+
+    strong {
+    color: rgb(17, 153, 231);
+}
+
+p {
+    flex-wrap: wrap;
+    flex-direction: row;
+    line-height: 1.2;
+    max-width: 1200px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+/*estilo contatos*/
+.subtitulo {
+    display: flex;
+    margin: 5px;
+    color:  black;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+} 
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 50px;
+}
+
+/*redes sociais*/
+.socialnetworks {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin: auto;
+    padding: auto; 
+}
+
+.contactclasse {
+    color: black;
+    display: flex;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.contactinfo {
+    color:  black;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*direitos*/
+footer {
+    color:  black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+
+
+

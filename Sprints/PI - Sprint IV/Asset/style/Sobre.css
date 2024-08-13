@@ -1,0 +1,222 @@
+
+/* Estilo de página */
+* body {
+    background: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .figure img {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    nav ul {
+        font-family: Arial, Helvetica, sans-serif;
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(17, 153, 231);;;
+    }
+    
+    nav a:hover {
+        color: rgb(17, 153, 231);
+        transition: 0.3s all;
+    }
+    
+    #inscreva-se-btn {
+        background-color: rgb(17, 153, 231);
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid rgb(5, 5, 5);
+        color: rgb(246, 247, 248);
+        padding: 10px;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+    
+    #inscreva-se-btn:hover {
+        background-color: rgb(17, 153, 231);;
+        color: white;
+    }
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+h2 {
+    display: flex;
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    color: rgb(17, 153, 231);
+}
+
+p {
+    line-height: 1.5;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Inscreve-se agora*/
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#cadastre-se-btn {
+    background-color: rgb(17, 153, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid rgb(5, 5, 5);
+    color: rgb(246, 247, 248);
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+#cadastre-se-btn:hover {
+    background-color: rgb(17, 153, 231);
+        color: white;
+    }
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+strong {
+    color: rgb(17, 153, 231);
+}
+
+p {
+    flex-wrap: wrap;
+    line-height: 1.2;
+    max-width: 2000px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+article img {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 10px;
+    padding: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form input[type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: rgb(17, 153, 231);
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+/*estilo contatos*/
+.subtitulo {
+    display: flex;
+    margin: 5px;
+    color: black;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  
+} 
+
+/*redes sociais*/
+.socialnetworks {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 250px;
+    margin: auto;
+    padding: auto; 
+}
+
+.contactclasse {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactinfo {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*direitos*/
+footer {
+    color: black;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+
+
+

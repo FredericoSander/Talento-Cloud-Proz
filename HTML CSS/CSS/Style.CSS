@@ -4,12 +4,16 @@ body {
             padding: 10;
         }
 
-header, footer {
-            background-color: #123982;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #123982;
+    color: #fff;
+    padding: 10px;
+    
+}
 
 nav ul {
     font-family: Arial, Helvetica, sans-serif;
@@ -20,11 +24,18 @@ nav ul {
     gap: 10px;
 }
 
+.figure img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+}
+
+
 nav ul li a {
     text-decoration: none;
     color: #fff;
 }
-
 
 main {
      padding: 20px;
@@ -40,5 +51,15 @@ img {
 section p {
 
     text-align: justify;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;
+    background-color: #123982;
+    color: #fff;
+    padding: 10px;
 }
    
